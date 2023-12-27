@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:id="@+id/firstRelativeLayout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstRelativeLayout"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#B2B7C6"
+            android:background="@drawable/edit_text_border"
+            android:padding="0dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:background="@android:color/transparent"
+                android:drawableEnd="@drawable/baseline_person_24"
+                android:drawablePadding="0dp"
+                android:textColorHint="#B2B7C6"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/secondRelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondRelativeLayout"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#B2B7C6"
+            android:background="@drawable/edit_text_border"
+            android:padding="0dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:background="@android:color/transparent"
+                android:drawableEnd="@drawable/baseline_email_24"
+                android:drawablePadding="0dp"
+                android:textColorHint="#B2B7C6"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/secondRelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondRelativeLayout1"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#B2B7C6"
+            android:background="@drawable/edit_text_border"
+            android:padding="0dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:background="@android:color/transparent"
+                android:drawableEnd="@drawable/baseline_local_phone_24"
+                android:drawablePadding="0dp"
+                android:textColorHint="#B2B7C6"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/secondRelativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondRelativeLayout2"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#B2B7C6"
+            android:background="@drawable/edit_text_border"
+            android:padding="0dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:background="@android:color/transparent"
+                android:drawableEnd="@drawable/baseline_lock_24"
+                android:drawablePadding="0dp"
+                android:textColorHint="#B2B7C6"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/secondRelativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondRelativeLayout3"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#B2B7C6"
+            android:background="@drawable/edit_text_border"
+            android:padding="0dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:background="@android:color/transparent"
+                android:drawableEnd="@drawable/baseline_done_24"
+                android:drawablePadding="0dp"
+                android:textColorHint="#B2B7C6"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/secondRelativeLayout4"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:id="@+id/horizontalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false" />
+
+            <TextView
+                android:id="@+id/centerTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Agree with terms and conditions"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/check"
+        android:layout_marginTop="0dp"
+        android:text="Create Account"
+            android:textAlignment="center"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/dsaa"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_marginTop="0dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#B2B7C6" />
+
+        <TextView
+            android:id="@+id/orTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="8dp"
+            android:background="#FFFFFF"
+            android:text="   OR   "
+            android:textSize="16sp"
+            android:textColor="#B2B7C6" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dsaa"
+        android:id="@+id/yeshh"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/roundedImageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/roundedImageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/roundedImageView1"
+            android:src="@drawable/twitterww" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yeshh"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already having an Account?"
+            android:textSize="18sp"
+            android:layout_marginLeft="0dp"
+            android:textColor="#B2B7C6" />
+
+        <TextView
+            android:id="@+id/textView2766"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView1"
+            android:layout_marginStart="16dp"
+            android:text="login"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
